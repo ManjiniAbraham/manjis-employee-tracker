@@ -1,0 +1,19 @@
+{
+  "name": "manjis-employee-tracker",
+  "version": "1.0.0",
+  "description": "This is an Employee Tracker App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManjiniAbraham/manjis-employee-tracker.git"
+  },
+  "author": "Manjini Abraham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManjiniAbraham/manjis-employee-tracker/issues"
+  },
+  "homepage": "https://github.com/ManjiniAbraham/manjis-employee-tracker#readme"
+}
