@@ -21,10 +21,7 @@ Install NodeJS. Also install 'inquirer', 'mysql2', 'dotenv' packages.
 
 To run the application, in the correct location, Open integrated terminal and run'node index.js'.
 
-Screenshots: 
-
-Demo URL:  
-
+Demo URL:  https://drive.google.com/file/d/11D8ur3cgknLXH6wJz7t8J1b7OuWEHDmF/view
 
 
 ## License
@@ -53,7 +50,7 @@ https://www.freecodecamp.org/news/javascript-promise-tutorial-how-to-resolve-or-
 ## Features
 
 * The Employee Tracker has the following features:
-	* On running the application in the command line, the user is presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, update an employee role and Exit.
+	* On running the application in the command line, the user is presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, update an employee role, Update employee manager,View employees by manager,View employee by department,View department budget and Exit.
 	* On choosing to view all departments, user is presented with a formatted table showing department names and department ids.
     * On choosing to view all roles, user is presented with the job title, role id, the department that role belongs to, and the salary for that role
     * On choosing to view all employees, user is presented with a formatted table showing employee data, including employee ids, first names, last names, job titles, departments, salaries, and managers that the employees report to.
@@ -61,6 +58,10 @@ https://www.freecodecamp.org/news/javascript-promise-tutorial-how-to-resolve-or-
     * On choosing to add a role, user is prompted to enter the name, salary, and department for the role and that role is added to the database.
     * On choosing to add an employee, user is prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database
     * On choosing to update an employee role, user is prompted to select an employee to update and their new role and this information is updated in the database 
+    * On choosing to Update employee manager, user is prompted to select an employee to update and to choose the new manager and the information is updated in the database.
+    * On selecting View employees by manager, user is prompted to choose a manager and based on the selected manager the list of all employees reporting will be displayed.
+    * On selecting View employee by department, user is prompted to choose a department and based on the selection all employees in that department will be listed.
+    * On selecting View department budget, user will be prompted to choose a department and the total sum of salaries will be displayed for that chosen department. 
     * On choosing Exit, the user will be able to exit the application.
 
 
